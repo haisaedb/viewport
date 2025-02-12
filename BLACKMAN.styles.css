@@ -140,7 +140,6 @@ footer .icon{
 /* ----- HANDLE PREFERS REDUCED MOTION FOR THE ICON ANIMATIONS ----- */
 /* --------------- BEGIN USER PREFERS REDUCED MOTION QUERY --------------- */
     @media (prefers-reduced-motion){
-
     @-webkit-keyframes icon-animation {
         0% { font-variation-settings: "TIME" 1; }
     }
@@ -235,7 +234,7 @@ img{
 
 /* ---------- MEDIUM SCREEN STYLES ---------- */
 /* --------------- BEGIN MEDIUM SCREEN SIZES --------------- */
-    @media screen and (min-width: 900px) and (max-width: 1274px){
+    @media screen and (min-width: 600px) and (max-width: 1274px){
      header, footer{
         background-color: var(--black);
         color: var(--white);
